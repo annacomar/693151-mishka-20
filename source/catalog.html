@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <title>Каталог магазина "Мишка"</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <header class="page-header">
+      <nav class="main-nav">
+        <a class="page-header__logo-wrapper" href="index.html">
+          <img class="page-header__logo-image" src="#" alt="Логотип магазина Мишка">
+          Переход на главную страницу
+        </a>
+        <button class="main-nav__toggle" type="button" aria-label="Открыть меню">
+          <span class="visually-hidden">Открыть меню</span>
+        </button>
+        <ul class="main-nav__list site-list">
+          <li class="site-list__item">
+            <a class="site-list__link">Каталог товаров</a>
+          </li>
+          <li class="site-list__item">
+            <a class="site-list__link" href="form.html">Вязание на заказ</a>
+          </li>
+          <li class="site-list__item">
+            <a class="site-list__link" href="#">Новые поступления</a>
+          </li>
+          <li class="site-list__item">
+            <a class="site-list__link" href="#">Распродажа</a>
+          </li>
+        </ul>
+        <ul class="main-nav__list user-list">
+          <li class="user-list__item user-list__item--search">
+            <a class="user-list__link user-list__link--search" href="#">
+              <span class="visually-hidden">Поиск по сайту</span>
+            </a>
+          </li>
+          <li class="user-list__item user-list__item--basket">
+            <a class="user-list__link user-list__link--basket" href="#">Корзина: пока пуста</a>
+          </li>
+          <li class="user-list__item user-list__item--delivery">
+            <a class="user-list__link user-list__link--delivery" href="#">Беслатная доставка по России</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main-nav">
+      <section class="catalog">
+        <h1 class="catalog__title">Каталог товаров</h1>
+        <ul class="catalog__list">
+
+          <li class="catalog__item">
+            <img class="catalog__picture" src="#" alt="Зайчик-попрыгайчик">
+            <section class="catalog__text">
+              <h2 class="catalog__subtitle">Зайчик-попрыгайчик</h2>
+              <p class="catalog__description">Рост 30 см, вес 200 г</p>
+            </section>
+            <div class="catalog__price">
+              <span class="catalog__price catalog__price--1200">1200</span>
+            </div>
+            <button class="catalog__button" type="submit">Купить</button>
+          </li>
+
+          <li class="catalog__item">
+            <img class="catalog__picture" src="#" alt="Корзинка для белья">
+            <section class="catalog__text">
+              <h2 class="catalog__subtitle">Корзинка для белья</h2>
+              <p class="catalog__description">Диаметр 15 см, высота 10 см</p>
+            </section>
+            <div class="catalog__price">
+              <span class="catalog__price catalog__price--690">690</span>
+            </div>
+            <button class="catalog__button" type="submit">Купить</button>
+          </li>
+
+          <li class="catalog__item">
+            <img class="catalog__picture" src="#" alt="Большая корзинка для игрушек">
+            <section class="catalog__text">
+              <h2 class="catalog__subtitle">Большая корзинка для игрушек</h2>
+              <p class="catalog__description">Диаметр 30 см, высота 30 см</p>
+            </section>
+            <div class="catalog__price">
+              <span class="catalog__price catalog__price--1500">1500</span>
+            </div>
+            <button class="catalog__button" type="submit">Купить</button>
+          </li>
+
+        </ul>
+      </section>
+
+      <article class="production">
+        <div class="production__title-wrapper">
+          <h2 class="production__title">Процесс производства</h2>
+        </div>
+        <div class="production__video-wrapper">
+          <img class="production__video>" src="#" alt="Процесс производства наших изделий">
+          <p class="production__text">
+            По просьбам наших любимых фолловеров мы сняли для вас подробное видео о том, как появляются наши товары.
+          </p>
+        </div>
+        <a class="button order" href="#">
+          Сделать заказ
+        </a>
+      </article>
+
+    </main>
+
+    <footer class="page-footer">
+
+      <section class="social">
+        <ul class="social__list">
+          <li class="social__item">
+            <a class="social__link social__link--instagram" href="#">
+              <span class="visually-hidden">
+                Инстаграм
+              </span>
+            </a>
+          </li>
+          <li class="social__item">
+            <a class="social__link social__link--facebook" href="#">
+              <span class="visually-hidden">
+                Фейсбук
+              </span>
+            </a>
+          </li>
+          <li class="social__item">
+            <a class="social__link social__link--twitter" href="#">
+              <span class="visually-hidden">
+                Твиттер
+              </span>
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <section class="page-footer__made-by">
+        <span class="page-footer__made-by-Academy">
+          Разработано
+        </span>
+        <a class="page-footer__made-by-link" href="https://up.htmlacademy.ru/adaptive/20">Логотип HtmlAcademy
+        </a>
+      </section>
+    </footer>
+  </div>
+</body>
+
+</html>

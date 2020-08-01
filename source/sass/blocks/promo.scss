@@ -5,6 +5,7 @@
   line-height: 30px;
   text-align: center;
   color: $darkblack;
+
   @include reset-text;
 }
 
@@ -15,6 +16,7 @@
   line-height: 24px;
   text-align: center;
   color: $white;
+
   @include reset-text;
 }
 

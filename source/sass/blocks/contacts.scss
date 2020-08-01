@@ -1,0 +1,9 @@
+.contacts__title {
+  @include reset-text;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 30px;
+  color: $darkblack;
+}

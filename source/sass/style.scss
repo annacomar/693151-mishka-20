@@ -1,1 +1,36 @@
-// Начните писать стили здесь
+/*variables*/
+@import "base/variables.scss";
+
+/*mixins*/
+@import "base/mixins.scss";
+
+/*font-face*/
+@import "base/font-face.scss";
+
+/*body */
+@import "base/body.scss";
+
+/*visually-hidden*/
+@import "base/visually-hidden.scss";
+
+/*global*/
+@import "global/container.scss";
+@import "global/main-nav.scss";
+@import "global/page-header.scss";
+@import "global/page-footer.scss";
+@import "global/button.scss";
+
+//blocks
+@import "blocks/site-list.scss";
+@import "blocks/page-main.scss";
+@import "blocks/bestseller.scss";
+@import "blocks/about.scss";
+@import "blocks/reviews.scss";
+@import "blocks/contacts.scss";
+@import "blocks/catalog.scss";
+@import "blocks/production.scss";
+@import "blocks/intro.scss";
+@import "blocks/order-form.scss";
+@import "blocks/social.scss";
+@import "blocks/user-list.scss";
+@import "blocks/promo.scss";

@@ -1,0 +1,32 @@
+.promo__title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 27px;
+  line-height: 30px;
+  text-align: center;
+  color: $darkblack;
+  @include reset-text;
+}
+
+.promo__subtitle {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 24px;
+  text-align: center;
+  color: $white;
+  @include reset-text;
+}
+
+.promo__subtitle-wrapper {
+  width: 320px;
+  height: 103px;
+
+  &--interior {
+    background-color: $lightgreen;
+  }
+
+  &--toys {
+    background-color: $darkgreen;
+  }
+}

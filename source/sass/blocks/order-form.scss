@@ -1,0 +1,35 @@
+.order-form__fieldset {
+  @include reset-fieldset;
+}
+
+.order-form__text {
+  width: 260px;
+
+  @include reset-text;
+}
+
+.order-form__label {
+  @include reset-text;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 18px;
+  color: $darkblack;
+}
+
+.order-form__legend-text {
+  @include reset-text;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: $lightgreen;
+}
+
+.order-form__notice {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+}

@@ -1,0 +1,9 @@
+.main-nav {
+  width: 320px;
+  margin: 0 auto;
+  background-color: $white;
+}
+
+.main-nav__list {
+  @include reset-list;
+}

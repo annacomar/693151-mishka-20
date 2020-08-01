@@ -1,0 +1,14 @@
+.intro__title-wrapper {
+  width: 320px;
+  min-height: 177px;
+  background-color: $lightgray;
+}
+
+.intro__title {
+  @include reset-text;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 27px;
+  line-height: 30px;
+  color: $darkblack;
+}

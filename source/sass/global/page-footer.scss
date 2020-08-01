@@ -1,0 +1,17 @@
+.page-footer {
+  width: 320px;
+  margin: 0 auto;
+  background-color: $lightgray;
+}
+
+.page-footer__made-by {
+  display: flex;
+}
+
+.page-footer__made-by-Academy {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 18px;
+  color: $darkblack;
+}

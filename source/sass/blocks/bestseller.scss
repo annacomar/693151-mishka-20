@@ -1,0 +1,26 @@
+.bestseller__title {
+  @include reset-text;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: left;
+  color: $darkblack;
+}
+
+.bestseller__subtitle {
+  @include reset-text;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: $lightgreen;
+}
+
+.bestseller__price {
+  @include reset-text;
+  font-weight: bold;
+  font-size: 17px;
+  color: $lightblack;
+}

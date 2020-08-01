@@ -1,0 +1,39 @@
+.reviews__title {
+  @include reset-text;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 30px;
+  color: $darkblack;
+}
+
+.reviews__text {
+  width: 260px;
+
+  @include reset-text;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 30px;
+  color: $lightblack;
+}
+
+.reviews__author-wrapper {
+  width: 260px;
+}
+
+.reviews__author {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 24px;
+  color: $darkblack;
+}
+
+.reviews__source {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 30px;
+  color: $lightblack;
+}

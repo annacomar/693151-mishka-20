@@ -1,0 +1,39 @@
+.catalog__title-wrapper {
+  width: 320px;
+  min-height: 177px;
+  background-color: $lightgray;
+}
+
+.catalog__title {
+  @include reset-text;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 27px;
+  line-height: 30px;
+  text-align: center;
+  color: $darkblack;
+}
+
+.catalog__subtitle {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 24px;
+  color: $darkblack;
+}
+
+.catalog__description {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 30px;
+  color: $lightblack;
+}
+
+.catalog__price {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 24px;
+  color: $darkblack;
+}

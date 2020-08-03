@@ -1,9 +1,17 @@
 .contacts__title {
   @include reset-text;
-
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
   line-height: 30px;
   color: $darkblack;
+}
+
+.contacts__email {
+  @include reset-text;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 30px;
+  color: $lightblack;
 }

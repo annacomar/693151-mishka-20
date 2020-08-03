@@ -1,23 +1,21 @@
 .promo__title {
+  @include reset-text;
   font-style: normal;
   font-weight: bold;
   font-size: 27px;
   line-height: 30px;
   text-align: center;
   color: $darkblack;
-
-  @include reset-text;
 }
 
 .promo__subtitle {
+  @include reset-text;
   font-style: normal;
   font-weight: bold;
   font-size: 19px;
   line-height: 24px;
   text-align: center;
   color: $white;
-
-  @include reset-text;
 }
 
 .promo__subtitle-wrapper {

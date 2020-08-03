@@ -3,9 +3,8 @@
 }
 
 .order-form__text {
-  width: 260px;
-
   @include reset-text;
+  width: 260px;
 }
 
 .order-form__label {

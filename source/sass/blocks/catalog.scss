@@ -1,5 +1,5 @@
 .catalog__title-wrapper {
-  width: 320px;
+  //width: 320px;
   min-height: 177px;
   background-color: $lightgray;
 }
@@ -12,6 +12,10 @@
   line-height: 30px;
   text-align: center;
   color: $darkblack;
+}
+
+.catalog__list {
+  @include reset-list;
 }
 
 .catalog__subtitle {

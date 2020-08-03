@@ -8,9 +8,8 @@
 }
 
 .reviews__text {
-  width: 260px;
-
   @include reset-text;
+  width: 260px;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
